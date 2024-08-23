@@ -1,0 +1,84 @@
+* {
+    font-family: "open sans", sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+.contact-container {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    background-image: url(img/demo1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.7;
+}
+
+.register {
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    width: 400px;
+    height: fit-content;
+    border-radius: 10px;
+    position: absolute;
+    /* border: 1px solid #ccc; */
+    box-shadow: 5px 5px 20px black;
+    opacity: 2.1;
+    top: 50%;
+    left: 50%;
+    z-index: 1;
+    transform: translate(-50%, -50%);
+    /* text-align: center; */
+
+}
+
+.register h1 {
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    font-weight: 800;
+
+}
+
+.register label {
+    display: block;
+    margin-bottom: 8px;
+    text-transform: capitalize;
+    /* font-family: "open sans", sans-serif; */
+    /* font-weight: bolder; */
+    font-weight: 700;
+
+}
+
+.register input,
+.register textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border-radius: 15px;
+    border: none;
+    /* border: 1px solid #ccc; */
+    box-sizing: border-box;
+    /* background-color: transparent; */
+
+}
+
+.register button {
+    display: block;
+    width: 100px;
+    padding: 10px;
+    /* background-color: #007bff; */
+    color: white;
+    background-color: #ce155f;
+    border: none;
+    box-shadow: 5px 5px 10px black;
+    border-radius: 5px;
+    cursor: pointer;
+    position: relative;
+    left: 40%;
+}
+.register button:hover{
+    color: yellow;
+    background-color: black;
+}
